@@ -26,10 +26,6 @@ A responsive portfolio website for Hatim Vajihuddin, an aspiring full-stack deve
 5. Keep improving copy as skills and projects grow.
 
 ## Deployment
+hatim-vajihuddin.netlify.app
 
-Recommended: Netlify or Vercel.
 
-For Netlify:
-1. Drag and drop this folder into Netlify Drop, or connect your GitHub repo.
-2. Set the publish directory to the root folder.
-3. Deploy.

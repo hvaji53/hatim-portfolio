@@ -461,3 +461,48 @@ h3 {
     flex-direction: column;
   }
 }
+@media (max-width: 920px) {
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-image-card {
+    justify-self: center;
+    margin-inline: auto;
+  }
+
+  .hero-actions,
+  .quick-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 520px) {
+  h1 {
+    font-size: 2.35rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-actions,
+  .quick-links,
+  .project-links {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn,
+  .quick-links a,
+  .project-links a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .project-card,
+  .skill-card,
+  .service-card {
+    padding: 22px;
+  }
+}
